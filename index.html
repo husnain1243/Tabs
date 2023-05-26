@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="tabs">
+        <div class="container">
+            <div class="tab_container">
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'Price_Plan_1')">Member Logins<p>0-199</p></button>
+                    <button class="tablinks" onclick="openCity(event, 'Price_Plan_2')">Member Logins<p>200-1499</p></button>
+                    <button class="tablinks" onclick="openCity(event, 'Price_Plan_3')">Member Logins<p>1500+</p></button>
+                </div>
+                  
+                  <!-- Tab content -->
+                <div id="Price_Plan_1" class="tabcontent active" style="display: flex;">
+                    <div class="box">
+                        <div class="box_content">
+                            <h3>1-24 Members <br> <span>Billed Annually</span></h3>
+                            <p><b>$7</b>/mo</p>
+                            <p class="annually_plain">$84/annually</p>    
+                        </div>
+                        <a href="#"><div class="box_button">
+                            <i class="fa fa-angle-right"></i>
+                            <span>SELECT PLAN</span>
+                        </div></a>
+                    </div>
+                    <div class="box">
+                        <div class="box_content">
+                            <h3>25-99 Members <br> <span>Billed Annually</span></h3>
+                            <p><b>$15</b>/mo</p> 
+                            <p class="annually_plain">$180/annually</p>   
+                        </div>
+                        <a href="#"><div class="box_button">
+                            <i class="fa fa-angle-right"></i>
+                            <span>SELECT PLAN</span>
+                        </div></a>
+                    </div>
+                    <div class="box">
+                        <div class="box_content">
+                            <h3>100-199 Members <br> <span>Billed Annually</span></h3>
+                            <p><b>$26</b>/mo</p>
+                            <p class="annually_plain">$312/annually</p>    
+                        </div>
+                        <a href="#"><div class="box_button">
+                            <i class="fa fa-angle-right"></i>
+                            <span>SELECT PLAN</span>
+                        </div></a>
+                    </div>
+                </div>
+                  
+                <div id="Price_Plan_2" class="tabcontent">
+                    <div class="box">
+                        <div class="box_content">
+                            <h3>200-699 Members <br> <span>Billed Annually</span></h3>
+                            <p><b>$7</b>/mo</p>
+                            <p class="annually_plain">$84/annually</p>    
+                        </div>
+                        <a href="#">
+                            <div class="box_button">
+                                <i class="fa fa-angle-right"></i>
+                                <span>SELECT PLAN</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <div class="box_content">
+                            <h3>700-999 Members <br> <span>Billed Annually</span></h3>
+                            <p><b>$20</b>/mo</p>
+                            <p class="annually_plain">$84/annually</p>    
+                        </div>
+                        <a href="#">
+                            <div class="box_button">
+                                <i class="fa fa-angle-right"></i>
+                                <span>SELECT PLAN</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <div class="box_content">
+                            <h3>1000-1499 Members <br> <span>Billed Annually</span></h3>
+                            <p><b>$25</b>/mo</p>  
+                            <p class="annually_plain">$84/annually</p>  
+                        </div>
+                        <a href="#">
+                            <div class="box_button">
+                                <i class="fa fa-angle-right"></i>
+                                <span>SELECT PLAN</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                  
+                <div id="Price_Plan_3" class="tabcontent">
+                    <div class="box">
+                        <div class="box_content">
+                            <h3>1500+ Members <br> <span>Billed Annually</span></h3>
+                            <p><b>$50</b>/mo</p>  
+                            <p class="annually_plain">$500/annually</p>  
+                        </div>
+                        <a href="#">
+                            <div class="box_button">
+                                <i class="fa fa-angle-right"></i>
+                                <span>SELECT PLAN</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
